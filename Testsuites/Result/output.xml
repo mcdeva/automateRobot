@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.11.1 on darwin)" generated="2025-03-03T11:50:22.843878" rpa="false" schemaversion="5">
+<suite id="s1" name="Search" source="/Users/mcdeva/Documents/new/Testsuites/search.robot">
+<test id="s1-t1" name="Debug 001" line="14">
+<kw name="Open Main Page" owner="search_keyword">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-03-03T11:50:22.944563" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/mcdeva/Documents/new/Testsuites/Result/browser/traces/temp/79543882-a2e7-46d2-929f-728aec9c4478"}</msg>
+<msg time="2025-03-03T11:50:22.963118" level="INFO">Starting Browser process /Users/mcdeva/Documents/new/.env/lib/python3.11/site-packages/Browser/wrapper/index.js using port 49960</msg>
+<msg time="2025-03-03T11:50:22.963262" level="INFO">Node startup parameters: ['node', '/Users/mcdeva/Documents/new/.env/lib/python3.11/site-packages/Browser/wrapper/index.js', '49960']</msg>
+<msg time="2025-03-03T11:50:24.746644" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/mcdeva/Documents/new/Testsuites/Result/browser/traces/temp/79543882-a2e7-46d2-929f-728aec9c4478"}</msg>
+<arg>chromium</arg>
+<arg>False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-03-03T11:50:22.944233" elapsed="1.802876"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-03-03T11:50:24.749714" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2025-03-03T11:50:24.762127" level="INFO">Successfully created context. </msg>
+<msg time="2025-03-03T11:50:24.762238" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-03-03T11:50:24.748346" elapsed="0.013988"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-03-03T11:50:25.260818" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2025-03-03T11:50:25.260998" level="INFO">See also file:///Users/mcdeva/Documents/new/Testsuites/Result/playwright-log.txt for additional details.</msg>
+<msg time="2025-03-03T11:50:25.261397" level="FAIL">Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.qa-site-management.com/
+Call log:
+  - navigating to "https://www.qa-site-management.com/", waiting until "load"
+</msg>
+<arg>${url_main_page}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="FAIL" start="2025-03-03T11:50:24.762600" elapsed="0.503714">Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.qa-site-management.com/
+Call log:
+  - navigating to "https://www.qa-site-management.com/", waiting until "load"
+</status>
+</kw>
+<status status="FAIL" start="2025-03-03T11:50:22.943872" elapsed="2.322647">Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.qa-site-management.com/
+Call log:
+  - navigating to "https://www.qa-site-management.com/", waiting until "load"
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-03-03T11:50:25.266796" elapsed="0.000086"/>
+</kw>
+<msg time="2025-03-03T11:50:25.269677" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-03-03T11:50:25.275472" level="INFO">Switching context to context=3c629522-034e-4435-869c-db21eb136150 in CURRENT</msg>
+<msg time="2025-03-03T11:50:25.278947" level="INFO">Successfully changed active context: context=3c629522-034e-4435-869c-db21eb136150</msg>
+<msg time="2025-03-03T11:50:25.296052" level="INFO">Successfully closed Context</msg>
+<tag>debug</tag>
+<status status="FAIL" start="2025-03-03T11:50:22.943548" elapsed="2.323584">Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.qa-site-management.com/
+Call log:
+  - navigating to "https://www.qa-site-management.com/", waiting until "load"
+</status>
+</test>
+<status status="FAIL" start="2025-03-03T11:50:22.844446" elapsed="2.452028"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">debug</stat>
+</tag>
+<suite>
+<stat name="Search" id="s1" pass="0" fail="1" skip="0">Search</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

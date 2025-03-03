@@ -1,0 +1,58 @@
+{"level":30,"time":"2025-03-03T04:50:23.257Z","pid":92593,"hostname":"Mc-Air.local","msg":"Listening on 49960"}
+(node:92593) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-03T04:50:24.300Z","pid":92593,"hostname":"Mc-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-03T04:50:24.744Z","pid":92593,"hostname":"Mc-Air.local","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-03T04:50:24.745Z","pid":92593,"hostname":"Mc-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-03T04:50:24.745Z","pid":92593,"hostname":"Mc-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-03T04:50:24.751Z","pid":92593,"hostname":"Mc-Air.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-03T04:50:24.752Z","pid":92593,"hostname":"Mc-Air.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-03-03T04:50:24.752Z","pid":92593,"hostname":"Mc-Air.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-03T04:50:24.752Z","pid":92593,"hostname":"Mc-Air.local","msg":"Trace file: "}
+{"level":30,"time":"2025-03-03T04:50:24.760Z","pid":92593,"hostname":"Mc-Air.local","msg":"Changed active context"}
+{"level":30,"time":"2025-03-03T04:50:24.760Z","pid":92593,"hostname":"Mc-Air.local","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-03T04:50:24.764Z","pid":92593,"hostname":"Mc-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-03T04:50:24.764Z","pid":92593,"hostname":"Mc-Air.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-03T04:50:25.118Z","pid":92593,"hostname":"Mc-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-03T04:50:25.118Z","pid":92593,"hostname":"Mc-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2025-03-03T04:50:25.253Z","pid":92593,"hostname":"Mc-Air.local","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.qa-site-management.com/
+Call log:
+[2m  - navigating to "https://www.qa-site-management.com/", waiting until "load"[22m
+
+    at newPage (/Users/mcdeva/Documents/new/.env/lib/python3.11/site-packages/Browser/wrapper/index.js:12567:18)
+    at async PlaywrightServer.newPage (/Users/mcdeva/Documents/new/.env/lib/python3.11/site-packages/Browser/wrapper/index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-03T04:50:25.258Z","pid":92593,"hostname":"Mc-Air.local","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (/Users/mcdeva/Documents/new/.env/lib/python3.11/site-packages/Browser/wrapper/index.js:10725:11)
+    at takeScreenshot (/Users/mcdeva/Documents/new/.env/lib/python3.11/site-packages/Browser/wrapper/index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (/Users/mcdeva/Documents/new/.env/lib/python3.11/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/mcdeva/Documents/new/.env/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/mcdeva/Documents/new/.env/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:570:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/mcdeva/Documents/new/.env/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:610:14)
+    at ServerHttp2Stream.<anonymous> (/Users/mcdeva/Documents/new/.env/lib/python3.11/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:377:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-03-03T04:50:25.258Z","pid":92593,"hostname":"Mc-Air.local","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-03-03T04:50:25.270Z","pid":92593,"hostname":"Mc-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T04:50:25.271Z","pid":92593,"hostname":"Mc-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T04:50:25.272Z","pid":92593,"hostname":"Mc-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T04:50:25.272Z","pid":92593,"hostname":"Mc-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T04:50:25.274Z","pid":92593,"hostname":"Mc-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T04:50:25.274Z","pid":92593,"hostname":"Mc-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T04:50:25.276Z","pid":92593,"hostname":"Mc-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T04:50:25.276Z","pid":92593,"hostname":"Mc-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T04:50:25.278Z","pid":92593,"hostname":"Mc-Air.local","msg":"Changed active context"}
+{"level":30,"time":"2025-03-03T04:50:25.279Z","pid":92593,"hostname":"Mc-Air.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-03-03T04:50:25.295Z","pid":92593,"hostname":"Mc-Air.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-03-03T04:50:25.297Z","pid":92593,"hostname":"Mc-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T04:50:25.297Z","pid":92593,"hostname":"Mc-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-03T04:50:25.313Z","pid":92593,"hostname":"Mc-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-03-03T04:50:25.419Z","pid":92593,"hostname":"Mc-Air.local","msg":"End of node method closeAllBrowsers"}
