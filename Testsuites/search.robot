@@ -9,6 +9,7 @@ Search_001 Verify Search Robot Success
     Input Text Search
     Enter On Text Search
     Verify First Link
+    Sleep    2s
     Take Screenshot
 
 Debug 001
