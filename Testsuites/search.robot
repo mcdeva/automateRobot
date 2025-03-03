@@ -9,10 +9,17 @@ Search_001 Verify Search Robot Success
     Input Text Search
     Enter On Text Search
     Verify First Link
-    Sleep    2s
     Take Screenshot
 
-Debug 001
-    [Tags]    debug
-    Open Main Page
-    Sleep    10s
+Search_002 Verify More results Button Should Add More Results
+    [Documentation]    Owner : Rukpong
+    [Tags]    test
+    Open Url Duckduckgo
+    Input Text Search
+    Enter on Text Search
+    Wait First Link Visible
+    # Scroll To More Results Button
+    # Take Screenshot
+    Click More Results Button
+    Verify Number Page Results
+    Take Screenshot

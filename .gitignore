@@ -1,2 +1,9 @@
 .venv
 .vscode
+.DS_Store
+
+Result
+*.zip
+*.html
+*.xml
+*.txt
