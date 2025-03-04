@@ -4,7 +4,6 @@ Resource    ../Resources/Keywords/login_keyword.resource
 
 *** Test Cases ***
 Login_001 Verify Login Success
-    [Tags]    TestLogin
     Open Url Saucedemo
     Input Username
     Input Password
@@ -28,4 +27,12 @@ Login_004 Verify Products Visible
     Click Login Button
     Wait Title Page Visible
     Verify All Products Details
+    Take Screenshot
+
+Login_005 Verify Login Success
+    Open Url Saucedemo
+    Input Username
+    Input Password
+    Click Login Button
+    Verify Login Success
     Take Screenshot

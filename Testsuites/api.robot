@@ -11,7 +11,6 @@ ${url_login}    https://fakestoreapi.com/auth/login
 
 *** Test Cases ***
 API_001 API Verify Get All Product
-    [Tags]    test
     # Set URL, Header, Body
     # Send Request
     # Valiadate, Verify
