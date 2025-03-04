@@ -4,6 +4,7 @@ Resource    ../Resources/Keywords/login_keyword.resource
 
 *** Test Cases ***
 Login_001 Verify Login Success
+    [Tags]    TestLogin
     Open Url Saucedemo
     Input Username
     Input Password
